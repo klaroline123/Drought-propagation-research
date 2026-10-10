@@ -1,0 +1,410 @@
+[
+  [
+    1,
+    "a",
+    "SPEI scale maximizing MI",
+    "GRUN grid MI-optimal SPEI scale, months",
+    "Response-scale heterogeneity",
+    [
+      "Response scales vary geographically",
+      "Meteorological integration spans multiple timescales",
+      "Locally optimized response scales vary"
+    ]
+  ],
+  [
+    1,
+    "b",
+    "Hydrological drought catalogue",
+    "Three-product five-year HD counts",
+    "Catalogue coverage",
+    [
+      "Drought catalogues span six decades",
+      "Catalogue sizes differ across products",
+      "Three products capture extensive drought catalogues"
+    ]
+  ],
+  [
+    1,
+    "c",
+    "AR6 catalogue structure",
+    "Three-product regional median events/grid and matched antecedents",
+    "Regional catalogue structure",
+    [
+      "Regional catalogue structures vary",
+      "Drought catalogues show regional heterogeneity",
+      "Event and antecedent counts vary regionally"
+    ]
+  ],
+  [
+    1,
+    "d",
+    "Why a 24-month window?",
+    "Event-linkage saturation and optimal-scale CDFs",
+    "Practical W24 support",
+    [
+      "Antecedent linkage approaches saturation by 24 months",
+      "Most linkage occurs within 24 months",
+      "Two diagnostics support a 24-month window"
+    ]
+  ],
+  [
+    1,
+    "e",
+    "Matching and composition",
+    "Linked/all H map; no/single/multiple all-H shares",
+    "Coverage and composition",
+    [
+      "Linked droughts dominate the catalogue",
+      "Multiple antecedents dominate linked histories",
+      "Matching reveals complex antecedent histories"
+    ]
+  ],
+  [
+    1,
+    "f",
+    "Multiple-antecedent geography",
+    "Multiple/linked H map; multiple/all H regional fingerprint",
+    "Geographic multiplicity",
+    [
+      "Antecedent multiplicity varies regionally",
+      "Multiple antecedents show regional structure",
+      "Antecedent complexity has a geographic fingerprint"
+    ]
+  ],
+  [
+    2,
+    "a",
+    "Global clock distributions",
+    "Three-product medians/IQRs of nearest, peak, CoM",
+    "Different clock locations",
+    [
+      "Clock definitions yield distinct timings",
+      "Retrospective timings differ across clocks",
+      "Clocks summarize different antecedent features"
+    ]
+  ],
+  [
+    2,
+    "b",
+    "ERA5 root-zone soil moisture",
+    "ERA5 composite soil anomalies by clock anchor",
+    "Terrestrial consistency",
+    [
+      "Soil-moisture trajectories differ across anchors",
+      "ERA5 soil anomalies vary across anchors",
+      "Clock anchors align different soil trajectories"
+    ]
+  ],
+  [
+    2,
+    "c",
+    "Event-level clock relationships",
+    "Spearman rho and median absolute paired differences",
+    "Correspondence not interchangeability",
+    [
+      "Event timings correspond imperfectly",
+      "Clock correspondence varies across definitions",
+      "Alternative clocks differ within events"
+    ]
+  ],
+  [
+    2,
+    "d",
+    "ERA5 soil-timing distributions",
+    "ERA5 observed/baseline distance CDFs",
+    "Soil timing consistency",
+    [
+      "CoM lies closer to soil timing",
+      "Soil-timing distances vary across clocks",
+      "CoM shows closer soil-timing correspondence"
+    ]
+  ],
+  [
+    2,
+    "e",
+    "Timing stability across structures",
+    "Frozen jitter absolute changes by antecedent count",
+    "CoM stability",
+    [
+      "CoM timing stabilizes with antecedent multiplicity",
+      "Timing stability varies with history structure",
+      "CoM integrates timing across antecedents"
+    ]
+  ],
+  [
+    2,
+    "f",
+    "ERA5 same-event soil distances",
+    "ERA5 paired peak/CoM distances to driest month",
+    "Same-event correspondence",
+    [
+      "Soil-timing distances differ within events",
+      "CoM and peak show different soil correspondence",
+      "Same-event soil distances favour CoM"
+    ]
+  ],
+  [
+    3,
+    "a",
+    "Annual propagation-time distributions",
+    "Equal-grid mean and pooled event quantiles",
+    "Stationary mean",
+    [
+      "Global means remain nearly stationary",
+      "Stable means accompany changing distributions",
+      "Distribution changes accompany near-stationary means"
+    ]
+  ],
+  [
+    3,
+    "b",
+    "Quantile trend distributions",
+    "Sen slopes plus saved pointwise bootstrap intervals",
+    "Distribution compression",
+    [
+      "Opposing quantile trends compress distributions",
+      "Lower and upper quantiles move inward",
+      "Propagation-time quantiles show contrasting trends"
+    ]
+  ],
+  [
+    3,
+    "c",
+    "Distribution-width trends",
+    "Q90-Q10/IQR/MAD Sen slopes and Sen intervals",
+    "Cross-product narrowing",
+    [
+      "Widths narrow across products",
+      "Three width metrics show narrowing",
+      "Propagation-time distributions narrow across products"
+    ]
+  ],
+  [
+    3,
+    "d",
+    "Spatial reorganization (GRUN)",
+    "GRUN grid mean PT and AR6 grid-year width slopes",
+    "Spatial heterogeneity",
+    [
+      "Spatial trends reveal heterogeneous reorganization",
+      "GRUN reorganization varies geographically",
+      "Local changes differ across space"
+    ]
+  ],
+  [
+    3,
+    "e",
+    "Annual distribution-width evolution",
+    "Annual pooled widths and existing five-year visual mean",
+    "Temporal width evolution",
+    [
+      "Distribution widths contract through time",
+      "Annual widths decline across products",
+      "Narrowing emerges across annual distributions"
+    ]
+  ],
+  [
+    3,
+    "f",
+    "Clock and window sensitivity",
+    "Regional clock sign agreement; W18-36 global widths",
+    "Bounded robustness",
+    [
+      "Clock agreement varies; window trends narrow",
+      "Window narrowing accompanies variable clock agreement",
+      "Window trends narrow across tested horizons"
+    ]
+  ],
+  [
+    4,
+    "a",
+    "Event-scale and joint statistical associations",
+    "Partial correlations, spatial CV R2, joint beta/CI",
+    "Statistical associations with limited CV",
+    [
+      "Associations accompany limited spatial predictive power",
+      "Statistical associations vary across representations",
+      "Event associations exceed spatial predictive strength"
+    ]
+  ],
+  [
+    4,
+    "b",
+    "Quantile-specific associations",
+    "Three-product AR6 Spearman trend associations",
+    "Quantile correspondence",
+    [
+      "Associations differ across propagation-time quantiles",
+      "Quantile associations vary across products",
+      "Regional associations depend on quantile"
+    ]
+  ],
+  [
+    4,
+    "c",
+    "Temporal co-variation \u00b7 GRUN",
+    "GRUN standardized ten-year curves by PT regime",
+    "Temporal covariation",
+    [
+      "GRUN timing regimes show differing covariation",
+      "Temporal covariation differs across timing regimes",
+      "GRUN covariation varies with propagation timing"
+    ]
+  ],
+  [
+    4,
+    "d",
+    "Regional trend correspondence",
+    "AR6 paired trend scatter/rho/fit across products",
+    "Regional correspondence",
+    [
+      "Regional trend correspondence varies across products",
+      "Trend associations differ among regional covariates",
+      "Regional covariates show differing correspondence"
+    ]
+  ],
+  [
+    5,
+    "a",
+    "Severity-dependent retrospective trends",
+    "Severity-decile PT Sen/CI",
+    "Severity gradient",
+    [
+      "Retrospective trends vary with severity",
+      "Higher severity accompanies lower timing trends",
+      "Severity gradients differ across products"
+    ]
+  ],
+  [
+    5,
+    "b",
+    "Year \u00d7 severity: definition sensitivity",
+    "Year-severity beta under three definitions/CI",
+    "Specification dependence",
+    [
+      "Severity associations depend on definition",
+      "Interaction estimates vary across definitions",
+      "Definition sensitivity differs among products"
+    ]
+  ],
+  [
+    5,
+    "c",
+    "Severity-conditioned quantile trends",
+    "Decile by quantile Sen slope",
+    "Conditional distribution response",
+    [
+      "Quantile trends vary with severity",
+      "Severity gradients extend across quantiles",
+      "Conditional trends differ across products"
+    ]
+  ],
+  [
+    5,
+    "d",
+    "High\u2013low severity bootstrap distributions",
+    "Actual paired draws Q10/Q50/Q90 high-low slopes",
+    "Uncertainty of contrasts",
+    [
+      "High\u2013low contrasts show bootstrap uncertainty",
+      "Bootstrap contrasts differ across products",
+      "High\u2013low timing contrasts remain uncertain"
+    ]
+  ],
+  [
+    5,
+    "e",
+    "Regional consistency across AR6 regions",
+    "Median beta and negative sign agreement map",
+    "Regional heterogeneity",
+    [
+      "Regional severity associations vary geographically",
+      "Severity associations show partial regional agreement",
+      "Negative associations have regional structure"
+    ]
+  ],
+  [
+    5,
+    "f",
+    "Cross-product robustness",
+    "Frozen spec beta estimates with CI status",
+    "Bounded sensitivity",
+    [
+      "Interaction estimates vary across specifications",
+      "Severity associations differ across products",
+      "Product and specification differences persist"
+    ]
+  ],
+  [
+    6,
+    "a",
+    "Prospective predictability landscape",
+    "Corrected pooled AUC by lead/decile",
+    "Discrimination landscape",
+    [
+      "Discrimination varies across products and leads",
+      "Prospective discrimination differs across products",
+      "Severity and lead shape discrimination patterns"
+    ]
+  ],
+  [
+    6,
+    "b",
+    "Usable lead across severity",
+    "Lstar by severity, threshold.60",
+    "Threshold-defined lead",
+    [
+      "Threshold-defined leads vary with severity",
+      "Usable leads differ across products",
+      "GRUN remains at the threshold floor"
+    ]
+  ],
+  [
+    6,
+    "c",
+    "High-severity usable lead through time",
+    "Annual corrected high Lstar",
+    "Prospective temporal variation",
+    [
+      "High-severity usable leads vary through time",
+      "Lead trajectories differ across products",
+      "Usable lead changes are product dependent"
+    ]
+  ],
+  [
+    6,
+    "d",
+    "Paired retrospective\u2013prospective synthesis",
+    "Low/high trend components and their difference",
+    "Interpretation boundary",
+    [
+      "Retrospective and prospective contrasts differ",
+      "Timing and usable-lead contrasts differ",
+      "Severity contrasts differ between timing perspectives"
+    ]
+  ],
+  [
+    6,
+    "e",
+    "Threshold dependence of L* trends",
+    "High Lstar Sen slope versus threshold",
+    "Threshold sensitivity",
+    [
+      "High-severity trends depend on threshold",
+      "Threshold choice changes usable-lead trends",
+      "Usable-lead trends vary across thresholds"
+    ]
+  ],
+  [
+    6,
+    "f",
+    "Lead-dependent discrimination trends",
+    "High AUC annual Sen slope by fixed lead/CI",
+    "Lead sensitivity",
+    [
+      "Discrimination trends vary with forecast lead",
+      "AUC trends differ across leads",
+      "Lead-dependent trends differ among products"
+    ]
+  ]
+]

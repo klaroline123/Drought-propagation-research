@@ -1,0 +1,22 @@
+name: drought-figure-reproduction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - numpy==2.1.3
+      - pandas==2.2.3
+      - matplotlib==3.10.0
+      - scipy==1.15.3
+      - cartopy==0.24.1
+      - geopandas==1.1.1
+      - pyarrow==19.0.0
+      - regionmask==0.13.0
+      - shapely==2.0.6
+      - pyogrio==0.10.0
+      - pillow==11.1.0
+      - nbformat==5.10.4
+      - nbclient==0.10.2
+      - ipykernel==6.29.5
+      - jupyterlab>=4,<5
