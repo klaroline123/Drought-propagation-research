@@ -1,0 +1,31 @@
+variable,label,quantile,rho,p,n_regions,scale
+forcing_mean_intensity,Mean deficit intensity,10,0.5532064834390416,9.834857255106202e-05,44,AR6 trend correspondence
+forcing_mean_intensity,Mean deficit intensity,25,0.4982381959126145,0.0005778991920387074,44,AR6 trend correspondence
+forcing_mean_intensity,Mean deficit intensity,50,0.1102184637068358,0.47632008112874646,44,AR6 trend correspondence
+forcing_mean_intensity,Mean deficit intensity,75,-0.3557434813248766,0.017792503197597658,44,AR6 trend correspondence
+forcing_mean_intensity,Mean deficit intensity,90,-0.5188160676532769,0.0003084486656501635,44,AR6 trend correspondence
+forcing_mass_24,Cumulative deficit,10,0.7887244538407329,2.042868015301529e-10,44,AR6 trend correspondence
+forcing_mass_24,Cumulative deficit,25,0.7293868921775898,1.9567223276445733e-08,44,AR6 trend correspondence
+forcing_mass_24,Cumulative deficit,50,0.22931642001409444,0.1343003706881568,44,AR6 trend correspondence
+forcing_mass_24,Cumulative deficit,75,-0.5347427766032417,0.00018446923252787552,44,AR6 trend correspondence
+forcing_mass_24,Cumulative deficit,90,-0.7839323467230443,3.1102043033514017e-10,44,AR6 trend correspondence
+n_candidates,Parent number,10,0.6390415785764623,3.032985484809728e-06,44,AR6 trend correspondence
+n_candidates,Parent number,25,0.5052854122621564,0.00046816931315388195,44,AR6 trend correspondence
+n_candidates,Parent number,50,0.07526427061310781,0.6272763950758178,44,AR6 trend correspondence
+n_candidates,Parent number,75,-0.5970401691331924,1.8858769649813945e-05,44,AR6 trend correspondence
+n_candidates,Parent number,90,-0.8077519379844961,3.438390769033478e-11,44,AR6 trend correspondence
+met_onset_span_months,Onset-history span,10,0.7323467230443973,1.6039907599280257e-08,44,AR6 trend correspondence
+met_onset_span_months,Onset-history span,25,0.6224101479915434,6.456525850933171e-06,44,AR6 trend correspondence
+met_onset_span_months,Onset-history span,50,0.07596899224806201,0.6240464895195517,44,AR6 trend correspondence
+met_onset_span_months,Onset-history span,75,-0.6673713883016209,7.509963833216348e-07,44,AR6 trend correspondence
+met_onset_span_months,Onset-history span,90,-0.8694855532064835,1.9069133726882044e-14,44,AR6 trend correspondence
+sm_pre_3_1,Pre-onset soil state,10,0.03340380549682875,0.8295669861368515,44,AR6 trend correspondence
+sm_pre_3_1,Pre-onset soil state,25,0.03861874559548978,0.8034490307483337,44,AR6 trend correspondence
+sm_pre_3_1,Pre-onset soil state,50,0.06455250176180408,0.6771900738509062,44,AR6 trend correspondence
+sm_pre_3_1,Pre-onset soil state,75,-0.05384073291050035,0.7285090473704103,44,AR6 trend correspondence
+sm_pre_3_1,Pre-onset soil state,90,-0.006201550387596899,0.9681309732655387,44,AR6 trend correspondence
+sm_recovery_fixed,Soil-state recovery,10,0.4274841437632135,0.0037998731515251874,44,AR6 trend correspondence
+sm_recovery_fixed,Soil-state recovery,25,0.422692036645525,0.004257505199479028,44,AR6 trend correspondence
+sm_recovery_fixed,Soil-state recovery,50,0.383368569415081,0.010206671505941753,44,AR6 trend correspondence
+sm_recovery_fixed,Soil-state recovery,75,0.14686398872445383,0.34144596162547736,44,AR6 trend correspondence
+sm_recovery_fixed,Soil-state recovery,90,0.01902748414376321,0.9024305395981244,44,AR6 trend correspondence

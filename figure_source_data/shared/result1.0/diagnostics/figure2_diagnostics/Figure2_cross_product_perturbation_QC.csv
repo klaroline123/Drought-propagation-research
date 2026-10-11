@@ -1,0 +1,4 @@
+﻿product,n_events,n_grids,maximum_CoM_reproduction_error,cohort
+ERA5,187977,5168,0.0,Existing ERA5 soil grid sample; complete SPEI; ERA5 additionally retains original soil-timing cohort
+GRUN,304256,5230,0.0,Existing ERA5 soil grid sample; complete SPEI; ERA5 additionally retains original soil-timing cohort
+GLDAS,263849,5222,0.0,Existing ERA5 soil grid sample; complete SPEI; ERA5 additionally retains original soil-timing cohort
