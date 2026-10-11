@@ -1,0 +1,7 @@
+product,variant,aggregation,metric,unit,comparison,n_years,slope_per_decade,ci_low,ci_high
+ERA5,clock_nearest__minus__clock_CoM,paired_annual_slopes_same_residual_block_indices,difference_of_Sen_slopes,months decade^-1,same_aggregation,63,-0.0752325134911646,-0.1362754703035518,-0.0098243834255089
+ERA5,clock_peak__minus__clock_CoM,paired_annual_slopes_same_residual_block_indices,difference_of_Sen_slopes,months decade^-1,same_aggregation,63,-0.0587892755475711,-0.1104569578694926,-0.0076149403289983
+GRUN,clock_nearest__minus__clock_CoM,paired_annual_slopes_same_residual_block_indices,difference_of_Sen_slopes,months decade^-1,same_aggregation,63,-0.0339062872345194,-0.0873247321981109,0.0385180095249812
+GRUN,clock_peak__minus__clock_CoM,paired_annual_slopes_same_residual_block_indices,difference_of_Sen_slopes,months decade^-1,same_aggregation,63,0.0232632934234307,-0.040202614218482,0.0751642634914239
+GLDAS,clock_nearest__minus__clock_CoM,paired_annual_slopes_same_residual_block_indices,difference_of_Sen_slopes,months decade^-1,same_aggregation,63,-0.0216793805034339,-0.0801429471463297,0.0471575549292063
+GLDAS,clock_peak__minus__clock_CoM,paired_annual_slopes_same_residual_block_indices,difference_of_Sen_slopes,months decade^-1,same_aggregation,63,-0.0040410426078606,-0.0670969221992568,0.0502262056666102

@@ -1,0 +1,2 @@
+﻿product,period,valid_cells,total_lattice_cells,min,max,missing_fraction,missing_denominator,source_path,unit
+ERA5,1950–2014,60232,259200,1.0,36.0,0.7676234567901234,all259200 global0.5degree lattice cells; includes ocean and outside product support,source-file:mi_timescale_grid_VALID.pkl,months of SPEI accumulation

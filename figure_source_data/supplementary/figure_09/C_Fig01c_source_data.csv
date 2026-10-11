@@ -1,0 +1,7 @@
+product,variant,aggregation,metric,unit,comparison,n_years,slope_per_decade,ci_low,ci_high
+ERA5,observed_event,event_weighted,mean_PT,months decade^-1,none,63,-0.0126682619586333,-0.0463868727786108,0.0252889548266805
+ERA5,fixed_m_event,event_standardized_P0_weights,mean_PT,months decade^-1,none,63,-0.0210679335468418,-0.055427114272099,0.0162100152234072
+GRUN,observed_event,event_weighted,mean_PT,months decade^-1,none,63,0.0152268413022722,-0.0119163760323333,0.0425545689904281
+GRUN,fixed_m_event,event_standardized_P0_weights,mean_PT,months decade^-1,none,63,0.0137164215630558,-0.0133668247824897,0.0428993816314673
+GLDAS,observed_event,event_weighted,mean_PT,months decade^-1,none,63,0.0044372051449694,-0.0187723138438352,0.0265835864050061
+GLDAS,fixed_m_event,event_standardized_P0_weights,mean_PT,months decade^-1,none,63,0.0004850318504773,-0.0237229587936024,0.0206430699315224

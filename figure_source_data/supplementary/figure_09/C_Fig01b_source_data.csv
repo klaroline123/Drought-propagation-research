@@ -1,0 +1,10 @@
+product,variant,aggregation,metric,unit,comparison,n_years,slope_per_decade,ci_low,ci_high
+ERA5,clock_CoM,equal_grid,mean_PT,months decade^-1,none,63,-0.0154629869715818,-0.0493167898309059,0.0226091248021754
+ERA5,clock_nearest,equal_grid,mean_PT,months decade^-1,none,63,-0.0906955004627465,-0.1680303904273774,-0.0070692516796056
+ERA5,clock_peak,equal_grid,mean_PT,months decade^-1,none,63,-0.074252262519153,-0.1464077040718593,0.0025585390648335
+GRUN,clock_CoM,equal_grid,mean_PT,months decade^-1,none,63,0.0185445916987204,-0.0050640193415522,0.0435719192993813
+GRUN,clock_nearest,equal_grid,mean_PT,months decade^-1,none,63,-0.015361695535799,-0.074038477062963,0.0475764793873996
+GRUN,clock_peak,equal_grid,mean_PT,months decade^-1,none,63,0.0418078851221511,-0.0344319979018037,0.1099258963734653
+GLDAS,clock_CoM,equal_grid,mean_PT,months decade^-1,none,63,0.0092805298318426,-0.0143340748133408,0.0306882187596367
+GLDAS,clock_nearest,equal_grid,mean_PT,months decade^-1,none,63,-0.0123988506715912,-0.0782610018161199,0.0572428634072648
+GLDAS,clock_peak,equal_grid,mean_PT,months decade^-1,none,63,0.0052394872239819,-0.0739912414864741,0.0718011365749273

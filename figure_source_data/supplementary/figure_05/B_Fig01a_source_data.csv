@@ -1,0 +1,4 @@
+reference,anchor,support,PT_definition
+CoM,sum(t*w)/sum(w),"Candidate-event months intersected with [H-W,H]",H-CoM
+Nearest onset,max(candidate onset),Full onset of latest-starting candidate,H-latest onset
+Selected-event peak,argmin SPEI in selected full event,Candidate selected by greatest full pooled severity,H-selected peak

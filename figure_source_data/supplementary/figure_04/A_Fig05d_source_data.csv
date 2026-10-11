@@ -1,0 +1,10 @@
+﻿product,category,n_events,all_H,percent,denominator,source_path,period
+GRUN,No antecedent,131220,4012767,3.2700627771310917,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+GRUN,Single antecedent,312048,4012767,7.776379739964967,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+GRUN,Multiple antecedents,3569499,4012767,88.95355748290395,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+ERA5,No antecedent,102802,3316100,3.1000874521274993,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+ERA5,Single antecedent,267410,3316100,8.063990832604565,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+ERA5,Multiple antecedents,2945888,3316100,88.83592171526793,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+GLDAS,No antecedent,89917,3580861,2.5110441315650065,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+GLDAS,Single antecedent,241888,3580861,6.7550234426859905,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014
+GLDAS,Multiple antecedents,3249056,3580861,90.733932425749,all hydrological events,source-file:PART3A_FREEZE_MANIFEST.json,1950–2014

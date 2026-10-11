@@ -1,0 +1,2 @@
+﻿product,period,valid_cells,total_lattice_cells,min,max,missing_fraction,missing_denominator,source_path,unit
+GRUN,1950–2014,65544,259200,0.0714285746216774,1.0,0.7471296296296297,all259200 global0.5degree lattice cells; includes ocean and outside product support,source-file:03A_grid_matching_summary.pkl,fraction of all hydrological events at grid cell
