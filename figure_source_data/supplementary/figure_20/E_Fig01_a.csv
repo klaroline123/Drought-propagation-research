@@ -1,0 +1,4 @@
+component,definition,start_lag,end_lag
+target,"O(t,L)=1 if at least one eligible onset in (t,t+L]; first future onset assigns severity",0,12
+leads,"L=1,...,12 months; illustration uses L=12",1,12
+information,Predictors have time support <=t; full catalogue and post-event grouping remain retrospective,-23,0

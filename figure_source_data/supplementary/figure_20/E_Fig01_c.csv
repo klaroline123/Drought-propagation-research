@@ -1,0 +1,4 @@
+﻿product,n_grids_used,n_bands,source
+GRUN,65544,273,source-file:08_STAGE2_QC_CAUSAL_GRUN.json
+ERA5,60373,279,source-file:08_STAGE2_QC_CAUSAL_ERA5.json
+GLDAS,62612,279,source-file:08_STAGE2_QC_CAUSAL_GLDAS.json
