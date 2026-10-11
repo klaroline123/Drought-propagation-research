@@ -1,0 +1,2 @@
+﻿product,period,valid_cells,total_lattice_cells,min,max,missing_fraction,missing_denominator,source_path,unit
+ERA5,1950–2014,61507,259200,1.0,1.0,0.7627044753086419,all259200 global0.5degree lattice cells; includes ocean and outside product support,source-file:grid_metadata.pkl,eligible cell indicator

@@ -1,0 +1,10 @@
+﻿product,kind,stage,n_events,eligible_cells,source_path,period
+GRUN,Meteorological,original,10132602,65544,source-file:part1_manifest.json,1950–2014
+GRUN,Meteorological,pooled,7679169,65544,source-file:part1_manifest.json,1950–2014
+GRUN,Meteorological,final,5747337,65544,source-file:part1_manifest.json,1950–2014
+ERA5,Meteorological,original,9515056,61507,source-file:part1_manifest.json,1950–2014
+ERA5,Meteorological,pooled,7209477,61507,source-file:part1_manifest.json,1950–2014
+ERA5,Meteorological,final,5394773,61507,source-file:part1_manifest.json,1950–2014
+GLDAS,Meteorological,original,9827740,63590,source-file:part1_manifest.json,1950–2014
+GLDAS,Meteorological,pooled,7447131,63590,source-file:part1_manifest.json,1950–2014
+GLDAS,Meteorological,final,5571852,63590,source-file:part1_manifest.json,1950–2014
