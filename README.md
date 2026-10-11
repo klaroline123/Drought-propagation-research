@@ -1,73 +1,65 @@
 # Temporal representation of multievent meteorological antecedents alters inferred global drought propagation trends
 
-Local public-release candidate for the manuscript's frozen main and supplementary figures. **6/6 main figures and 23/23 supplementary figures independently reproduced with exact frozen-PNG pixel equality. Figure 4 recovery is documented in audits/FIGURE04_FROZEN_LINE_RECOVERY.md.**
+## Overview
 
-The package contains 29 notebook entries, 15 complete supplementary-table CSVs and 237 CSV plus 24 non-CSV plotting/resource files (32,097,114 bytes). Counts exclude manifests, documentation and generated outputs. Publication authorization and a code/data license remain pending; do not upload this entire working directory.
+This repository provides the **figure-generation notebooks and processed plotting inputs** accompanying the manuscript *Temporal representation of multievent meteorological antecedents alters inferred global drought propagation trends*. It contains notebooks for all **six main figures** and **23 supplementary figures**, together with the source data used to draw them and the complete data for **Supplementary Tables 1–15**.
 
-## Install and run
+The repository is a **figure-level reproducibility resource**, not a release of the complete upstream research workflow. In particular, it does not include raw global climate/runoff archives, the full drought-event catalogues, or code for event detection and pairing, propagation-time estimation, upstream trend and statistical analyses, or pseudo-prospective model fitting.
 
-Tested with Python 3.13.5 and the versions pinned in `requirements.txt`:
+## Repository contents
 
-```sh
+| Path | Contents |
+| --- | --- |
+| `main_figures/` | Six figure notebooks: `Figure01.ipynb`–`Figure06.ipynb` |
+| `supplementary_figures/` | 23 notebooks: `Supplementary_Figure01.ipynb`–`Supplementary_Figure23.ipynb` |
+| `figure_source_data/` | Processed plotting inputs in `main/`, `shared/` and `supplementary/`; see its README |
+| `assets/` | Geographic boundary and plotting-layout resources |
+| `plot_utils/` | Figure-rendering helpers and local validation scripts |
+| `manifests/` | Input/dependency inventories, checksums and reproduction-status records |
+| `requirements.txt`, `environment.yml` | Python environment specifications |
+| `VALIDATION_SUMMARY.md` | Scope, results and limitations of the packaging validation |
+| `THIRD_PARTY_NOTICES.md` | Attribution and third-party resource notices |
+| `CITATION.cff` | Provisional software citation metadata; update when final bibliographic information is available |
+
+## Figure source data layout
+
+The processed data are provided as ordinary directories in the repository and **do not require extraction**. The plotting notebooks resolve inputs relative to the repository root:
+
+```text
+figure_source_data/
+    main/
+    shared/
+    supplementary/
+```
+
+The recovered Figure 4 plotting-line coordinates are located at `figure_source_data/main/figure_04/regional_fit_lines.csv`. Full supplementary tables are in `figure_source_data/supplementary/tables/`, named `Supplementary_Table_01.csv` through `Supplementary_Table_15.csv`.
+
+See [the source-data README](figure_source_data/README.md) for a directory guide and `manifests/INPUT_DATA_MANIFEST.csv` for the recorded input inventory.
+
+## Install and reproduce figures
+
+The candidate package was tested with Python **3.13.5** and the dependencies recorded in `requirements.txt`. An independent installation into a completely fresh environment and interactive Jupyter-kernel execution were **not** established by the validation report.
+
+```bash
 python -m venv .venv
-# Activate .venv for your operating system, then:
+# Activate the environment for your operating system.
 python -m pip install -r requirements.txt
 python plot_utils/verify_package.py
 python plot_utils/run_notebooks.py main_figures/Figure01.ipynb
 ```
 
-Alternatively, `conda env create -f environment.yml`. Start `jupyter lab` in this repository, open any notebook, restart its kernel and run all cells. Notebook root discovery supports the repository root, its notebook directories, and a parent containing a `github` directory. There is no workstation-specific source path.
+`python plot_utils/run_notebooks.py` without a notebook argument runs all figure notebooks under its supported execution workflow. Alternatively, the notebooks may be opened in Jupyter with the supplied data directories; reproducing identical pixels outside the tested environment can depend on installed fonts and rendering libraries.
 
-`python plot_utils/run_notebooks.py` executes all code cells in a fresh Python process for each of the 29 notebooks, continues after failures and returns a nonzero exit code if a notebook fails. This is also the validated execution method. Jupyter kernel-protocol launch was attempted but did not complete in the local execution environment; a successful Jupyter frontend run is not claimed. Notebooks contain ordinary Python cells and no kernel magics. The pinned environment is a tested installed runtime, not a separately installed clean virtual environment.
+Figure outputs are written beneath `outputs/main/` and `outputs/supplementary/` by the corresponding notebooks. These generated outputs are not required to be committed to the repository.
 
-Main outputs are in `outputs/main/figure_XX/`; SI outputs are in `outputs/supplementary/figure_XX/02_FIGURES/`. PNG, PDF and SVG exports retain their original source stems. Font names and style are preserved. Arial and Times New Roman are system fonts and are not redistributed; systems without them can produce font/layout differences. No network download is needed for plotting inputs.
+## Reproducibility record and limitations
 
-## Figure entries
+The release-validation report records **29/29 notebook executions** and pixel-identical rendered PNGs against the manuscript's frozen figure images in an isolated copy of the package using an installed Python environment. That result supports **figure generation from supplied processed inputs**; it does not independently reproduce the upstream analyses or establish that all software environments will render identical pixels. Refer to `VALIDATION_SUMMARY.md` and `manifests/REPRODUCTION_STATUS.csv` for the tested scope.
 
-| Figure | Notebook | Status |
-|---|---|---|
-| Main Figure 1 | main_figures/Figure01.ipynb | READY |
-| Main Figure 2 | main_figures/Figure02.ipynb | READY |
-| Main Figure 3 | main_figures/Figure03.ipynb | READY |
-| Main Figure 4 | main_figures/Figure04.ipynb | READY |
-| Main Figure 5 | main_figures/Figure05.ipynb | READY |
-| Main Figure 6 | main_figures/Figure06.ipynb | READY |
-| SI Figure 1 | supplementary_figures/Supplementary_Figure01.ipynb | READY |
-| SI Figure 2 | supplementary_figures/Supplementary_Figure02.ipynb | READY |
-| SI Figure 3 | supplementary_figures/Supplementary_Figure03.ipynb | READY |
-| SI Figure 4 | supplementary_figures/Supplementary_Figure04.ipynb | READY |
-| SI Figure 5 | supplementary_figures/Supplementary_Figure05.ipynb | READY |
-| SI Figure 6 | supplementary_figures/Supplementary_Figure06.ipynb | READY |
-| SI Figure 7 | supplementary_figures/Supplementary_Figure07.ipynb | READY |
-| SI Figure 8 | supplementary_figures/Supplementary_Figure08.ipynb | READY |
-| SI Figure 9 | supplementary_figures/Supplementary_Figure09.ipynb | READY |
-| SI Figure 10 | supplementary_figures/Supplementary_Figure10.ipynb | READY |
-| SI Figure 11 | supplementary_figures/Supplementary_Figure11.ipynb | READY |
-| SI Figure 12 | supplementary_figures/Supplementary_Figure12.ipynb | READY |
-| SI Figure 13 | supplementary_figures/Supplementary_Figure13.ipynb | READY |
-| SI Figure 14 | supplementary_figures/Supplementary_Figure14.ipynb | READY |
-| SI Figure 15 | supplementary_figures/Supplementary_Figure15.ipynb | READY |
-| SI Figure 16 | supplementary_figures/Supplementary_Figure16.ipynb | READY |
-| SI Figure 17 | supplementary_figures/Supplementary_Figure17.ipynb | READY |
-| SI Figure 18 | supplementary_figures/Supplementary_Figure18.ipynb | READY |
-| SI Figure 19 | supplementary_figures/Supplementary_Figure19.ipynb | READY |
-| SI Figure 20 | supplementary_figures/Supplementary_Figure20.ipynb | READY |
-| SI Figure 21 | supplementary_figures/Supplementary_Figure21.ipynb | READY |
-| SI Figure 22 | supplementary_figures/Supplementary_Figure22.ipynb | READY |
-| SI Figure 23 | supplementary_figures/Supplementary_Figure23.ipynb | READY |
+The source data include processed statistical summaries, grid/display products, stored uncertainty draws and data used in individual panels. GRUN is the principal retrospective runoff representation; the labels `ERA5` in runoff figures refer to **ERA5-Land runoff**, whereas **ERA5 soil moisture** comes from a separate ECMWF dataset. GLDAS is a third runoff representation. The three products are not independent observational replications.
 
-## Data and scope
+Nine NPZ plotting inputs were flagged in the earlier validation record as potentially retaining original `source_path` metadata associated with supplementary figures. These paths are provenance metadata, not additional analysis inputs. Whether the current public copies have been redacted should be verified before treating the repository as privacy-reviewed. The original validation report also notes that source-data redistribution permissions and the repository-wide code/data licence had not been finally resolved; public availability does not itself establish third-party relicensing rights.
 
-- Complete tables: `figure_source_data/supplementary/tables/Supplementary_Table_01.csv` through `Supplementary_Table_15.csv`.
-- SI frozen panel inputs: `figure_source_data/supplementary/figure_01/` through `figure_23/`.
-- Main and cross-figure inputs: `figure_source_data/shared/`. Their relative source subdirectories are retained to distinguish product branches and avoid duplication. Per-main-figure folders provide pointers to the exact shared files.
-- Geography and frozen label resources: `assets/geography/` and `assets/other/`.
-- `manifests/INPUT_DATA_MANIFEST.csv` lists actual included files, hashes, consumers, transformations and release decisions. `FIGURE_SOURCE_MANIFEST.csv` records the runtime dependency graph.
+## Citation and data sources
 
-GRUN is the primary runoff representation. ERA5-Land is a runoff sensitivity product; runoff labeled ERA5 in the figures refers to ERA5-Land. ERA5 soil moisture comes from the separate ERA5 reanalysis. GLDAS is the third runoff product. SPEIbase metadata and the corrected product descriptions in Supplementary Table 1 follow the final SI. Only candidate metadata text and source-path labels were edited; numerical table values retain source precision. Source-file basenames in provenance fields identify archival sources, not additional files promised in this repository.
-
-Included data are frozen summaries, stored bootstrap draws, gridded display summaries, geographic resources and a two-column same-event display dataset. MI pickle summaries were losslessly converted to Parquet; pickle is not shipped. The same-event Parquet retains every one of the 189,254 plotted rows and only the two distance columns, without event identifiers. No raw global NetCDF, complete event catalogue, event identification, matching, PT computation, trend estimation, bootstrap execution, explanatory/severity fitting or pseudo-prospective training is supplied or run. Drawing operations such as the original hexbin and violin rendering remain unchanged.
-
-Current copy hashes establish current identity, not universal historical execution provenance. Final Word image hashes and exact regenerated pixels provide additional figure-specific evidence. Unplotted supporting columns do not acquire a historical freeze claim from pixel equality.
-
-`audits/internal/`, outputs, executed notebooks, backups and local evidence are excluded by `.gitignore`. Consult `GITHUB_UPLOAD_CHECKLIST.md` and `audits/FINAL_GITHUB_RELEASE_REPORT.md` before any future release. No upload, remote push, DOI creation or license assignment was performed. `CITATION.cff` has a provisional title only; authors and the eventual paper citation must be completed without inventing a DOI.
+Please cite the associated manuscript when bibliographic details become available, and cite the underlying SPEIbase, GRUN, ERA5/ERA5-Land and GLDAS data sources as described in the manuscript. See `CITATION.cff` for the currently available citation metadata and `THIRD_PARTY_NOTICES.md` for third-party acknowledgements. No paper DOI or archival dataset DOI is asserted here.
