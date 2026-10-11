@@ -1,0 +1,145 @@
+﻿source_table,source_row,product,threshold,slope,ci_low,ci_high,record_type,period,source,lead,retro_gradient,prospective_gradient,sign_concordant,decile,AUC_threshold,Lstar
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,1,GRUN,0.55,0.6773565927341991,-0.5588133923391214,2.067535431425127,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,2,GRUN,0.575,0.0234309705494834,-0.1164242075877702,1.8897119127840576,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,3,GRUN,0.6,0.0,0.0,0.0,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,4,GRUN,0.625,0.0,0.0,0.0,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,5,GRUN,0.65,0.0,0.0,0.0,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,6,ERA5,0.55,0.2822976574150749,-0.0128089435122005,0.7870669423201981,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,7,ERA5,0.575,0.1546380125116424,-0.227673488814708,0.518837502956645,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,8,ERA5,0.6,0.2091114467280385,-0.2012622075325179,0.6043204689067837,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,9,ERA5,0.625,0.1752819157560363,-0.3496765766850374,0.7615328928021476,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,10,ERA5,0.65,0.2662621735987003,-0.213104656280797,0.9538155312821271,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,11,GLDAS,0.55,0.7400457281933409,0.0628471773418789,1.2418439351060648,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,12,GLDAS,0.575,0.4934797429754604,0.1672922111455652,0.937868767245275,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,13,GLDAS,0.6,0.4367254109401206,0.1133524877099853,0.8024709407747064,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,14,GLDAS,0.625,0.4239736983921382,-0.0825891109819045,0.8853944027829806,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,15,GLDAS,0.65,0.3394772268177458,-0.2218462967584337,0.804232295541238,HIGH L* threshold trend,1986–2013,source-file:panel_e_threshold_trends.csv,,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,16,GRUN,,0.0019871058221198,-0.0083605667271453,0.0122784804234069,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,1.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,17,GRUN,,0.0034740874610724,-0.0088470604375789,0.0157172578480474,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,2.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,18,GRUN,,0.0046593286095617,-0.0061273339709772,0.0184700770949068,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,3.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,19,GRUN,,0.0055164336288762,-0.0062104474029432,0.0165930481762669,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,4.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,20,GRUN,,0.0051134744693001,-0.0054586168846731,0.0148537257354196,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,5.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,21,GRUN,,0.0051791014489145,-0.0059142055811743,0.01413057033116,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,6.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,22,GRUN,,0.0052708927489588,-0.0058517578445063,0.0116924427192824,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,7.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,23,GRUN,,0.0043340269074639,-0.0049153400821184,0.0112663458231043,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,8.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,24,GRUN,,0.0024957213004697,-0.0061868959471899,0.008945849799434,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,9.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,25,GRUN,,0.0015081591863196,-0.0035225410433084,0.0090328894157349,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,10.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,26,GRUN,,0.0021557451781649,-0.0046686483355599,0.009942195922837,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,11.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,27,GRUN,,0.0027462418942234,-0.0055272774299217,0.0103313949785879,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,12.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,28,ERA5,,0.0059193296287154,-0.0016677758593486,0.0142493999226991,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,1.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,29,ERA5,,0.0055524648563452,-0.0022632060612662,0.0130676687452917,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,2.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,30,ERA5,,0.0048759862112405,-0.0029720565693118,0.0129913459490582,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,3.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,31,ERA5,,0.0038773082831194,-0.005259329072062,0.0110775239113675,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,4.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,32,ERA5,,0.0034403289564228,-0.0041008308354561,0.0119434086839759,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,5.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,33,ERA5,,0.003046055271494,-0.0043611777854657,0.0109623949910263,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,6.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,34,ERA5,,0.0027718969018811,-0.0038274812586151,0.0092681267935431,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,7.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,35,ERA5,,0.0029819787858202,-0.0024402718758363,0.0083152979980428,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,8.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,36,ERA5,,0.0022035328377111,-0.0026883263343052,0.0075965594410979,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,9.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,37,ERA5,,0.0035227364241922,-0.0005246002142905,0.0084650502422587,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,10.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,38,ERA5,,0.0030366533352581,-0.0009387709779399,0.0078208817873471,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,11.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,39,ERA5,,0.0032701640633175,-0.0010942525588289,0.0070520107549777,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,12.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,40,GLDAS,,0.0078713623832227,0.0005654309942156,0.0166084798484708,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,1.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,41,GLDAS,,0.0071004025103355,-0.0041838711094498,0.016247557389767,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,2.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,42,GLDAS,,0.0051650258535648,-0.0039591977316955,0.015919494913795,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,3.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,43,GLDAS,,0.0049982261889746,-0.0051148701903651,0.0152640246376012,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,4.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,44,GLDAS,,0.0070562893321774,-0.0014176106883379,0.0164145790942287,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,5.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,45,GLDAS,,0.0071810374755776,-0.0004459298166045,0.014998858775856,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,6.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,46,GLDAS,,0.0078533396782987,0.0021508492383799,0.0142870873497624,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,7.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,47,GLDAS,,0.008907787575733,0.002880812560869,0.0145278823709028,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,8.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,48,GLDAS,,0.0086129707942068,0.0017497790643372,0.0141923774294581,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,9.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,49,GLDAS,,0.0079149065552373,0.0010760313992006,0.0134542382057023,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,10.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,50,GLDAS,,0.0101480076065686,0.0032407553757094,0.0165180748006572,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,11.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,51,GLDAS,,0.0095179453017468,0.0038625376337588,0.0152405296918561,HIGH fixed-L AUC trend,1986–2013,source-file:panel_f_fixed_lead_trends.csv,12.0,,,,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,52,GRUN,,,,,retrospective/prospective severity contrast,retrospective1952–2014;prospective1986–2013,source-file:panel_d_contrasts.csv,,-0.0485247825517691,0.0,False,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,53,ERA5,,,,,retrospective/prospective severity contrast,retrospective1952–2014;prospective1986–2013,source-file:panel_d_contrasts.csv,,-0.0714960100904602,0.0384241877080351,False,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,54,GLDAS,,,,,retrospective/prospective severity contrast,retrospective1952–2014;prospective1986–2013,source-file:panel_d_contrasts.csv,,-0.059141253791967,0.6718008363231985,False,,,
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,55,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.55,5.800566165979944
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,56,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,57,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,58,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.55,6.419068229221687
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,59,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,60,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,61,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.55,6.911510789675932
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,62,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,63,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,64,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.55,7.013996085150413
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,65,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,66,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,67,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.55,7.0996687107587935
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,68,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,69,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,70,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.55,6.801535435360083
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,71,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,72,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,73,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.55,5.5335762535243305
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,74,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,75,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,76,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.55,5.138997951582525
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,77,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,78,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,79,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.55,5.526299775408185
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,80,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,81,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,82,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.55,6.39322443653866
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,83,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.6,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,84,GRUN,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.65,0.0
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,85,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.55,8.7782615578135
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,86,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.6,6.080554097751012
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,87,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.65,3.023593576137704
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,88,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.55,9.031535208904792
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,89,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.6,6.225061699777217
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,90,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.65,3.1509867578393256
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,91,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.55,9.099636961357389
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,92,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.6,6.332179956893535
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,93,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.65,3.2843387400739785
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,94,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.55,9.222291730793748
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,95,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.6,6.42194415791388
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,96,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.65,3.297810734196113
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,97,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.55,9.31482905567086
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,98,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.6,6.404802546201781
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,99,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.65,3.222854252229535
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,100,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.55,9.418078542031786
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,101,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.6,6.352588180934517
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,102,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.65,3.0884152861729017
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,103,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.55,9.433078215486518
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,104,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.6,6.131518514527689
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,105,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.65,2.723831229411531
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,106,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.55,9.527384794611956
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,107,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.6,6.068790515869852
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,108,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.65,2.58706958300564
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,109,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.55,9.93636508903036
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,110,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.6,6.195283949638545
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,111,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.65,2.745303743495005
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,112,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.55,10.706482001372606
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,113,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.6,6.862275477816559
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,114,ERA5,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.65,3.428184760267388
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,115,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.55,8.495496071076667
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,116,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.6,5.834955357781609
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,117,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,1.0,0.65,2.650067818511721
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,118,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.55,8.670525485029522
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,119,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.6,6.032202119068757
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,120,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,2.0,0.65,2.920030449003163
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,121,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.55,8.839107035330084
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,122,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.6,6.224420928072958
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,123,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,3.0,0.65,3.210113820359515
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,124,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.55,8.93837217670659
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,125,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.6,6.357566128863008
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,126,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,4.0,0.65,3.401520726222094
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,127,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.55,9.17389960864559
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,128,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.6,6.497824841877931
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,129,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,5.0,0.65,3.504827329834077
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,130,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.55,9.32447084923819
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,131,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.6,6.58398920883266
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,132,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,6.0,0.65,3.575372051882019
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,133,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.55,9.393240484791203
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,134,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.6,6.495432392943071
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,135,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,7.0,0.65,3.367046539353377
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,136,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.55,9.48155606078498
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,137,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.6,6.378698559981856
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,138,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,8.0,0.65,3.1984013532438693
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,139,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.55,9.627461146513111
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,140,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.6,6.432700621632687
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,141,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,9.0,0.65,3.363095781601362
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,142,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.55,10.020780576108727
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,143,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.6,6.852750528914511
+E_Table05_THRESHOLD_FIXED_LEAD_SENSITIVITY,144,GLDAS,,,,,pooled decile L* threshold sensitivity,1986–2013,source-file:SI11_corrected_threshold_sensitivity.csv,,,,,10.0,0.65,3.903363261233132

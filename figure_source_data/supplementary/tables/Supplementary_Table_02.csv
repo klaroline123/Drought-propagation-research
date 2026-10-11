@@ -1,0 +1,21 @@
+﻿source_table,source_row,Parameter,Implementation,Notes
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,1,Drought threshold,SPEI1/SRI1 < −0.5,Strict threshold; equality is not drought
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,2,Catalogue eligibility,>=120 finite months in BOTH SPEI1 and product SRI1,Separate product masks; counts over780 monthly positions
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,3,Elementary run,Consecutive finite subthreshold months,Nonfinite months break runs; duration includes both endpoints
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,4,Elementary severity,S=sum(−0.5−X_t) over the elementary run,Positive monthly deficits
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,5,Gap,g=a_right−b_left−1; g<2 months,Strict inequality
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,6,Recovery contribution,"R=sum max(X_t−0.5,0) over intervening finite gap","Recovery threshold is +0.5, not0 or−0.5"
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,7,Pooling ratio,R/S_left < p_c,Current left pooled severity; no pooling across missing data
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,8,Meteorological pooling/filter parameters,p_c=0.30; r_ds=0.30,tc=2
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,9,Hydrological pooling/filter parameters,p_c=0.10; r_ds=0.10,tc=2
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,10,Pooled duration,D_new=D_left+D_right+g,Includes intervening gap
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,11,Pooled severity,S_new=S_left+S_right−R,Recursive stack-based merge; do not replace by elementary formula
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,12,Weak-event retention,D>=r_ds*mean(D_pool) AND S>=r_ds*mean(S_pool),Means across pooled same-grid/index events; filtering after pooling
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,13,Retained severity,Final pooled S of each event surviving both filters,No post-filter severity redefinition
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,14,Missing data,No interpolation; nonfinite breaks run; no merge across missing gap,Mask eligibility is not complete-record eligibility
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,15,Primary candidate overlap,M_start<=H_onset AND M_end>=H_onset−24,Same grid; inclusive endpoints; no adaptive extension
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,16,History sensitivities,"18,21,24,27,30,36 months",Full-catalogue primary sensitivity; operational choice
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,17,Restricted history sensitivity,"12,18,24,36 months on common36m coverage",Complete paired780-month records; targets1953–2014
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,18,Structure classes,n_candidates=0 /1 />=2,All hydrological events denominator unless explicitly labelled otherwise
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,19,MI scales and minimum support,SPEI1–36;>=390 finite paired months per comparison,Monthly contemporaneous SRI1; ten fixed bins
+A_Table02_EVENT_IDENTIFICATION_PARAMETERS,20,MI bin edges,"−inf,−2,−1.5,−1,−0.5,0,0.5,1,1.5,2,+inf","Natural logarithm; selected scale is information scale, not PT"

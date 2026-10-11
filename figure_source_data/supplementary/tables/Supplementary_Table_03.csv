@@ -1,0 +1,7 @@
+﻿source_table,source_row,product,eligible_grids,meteorological_events,hydrological_events,period,support_notes,source_path,no_antecedent,single_antecedent,multiple_antecedents,all_H,multiple_percent,linked_fraction,denominator,history_months
+A_Table03_CATALOGUE_SUMMARY,1,GRUN,65544,5747337,4012767,1950–2014,Product-specific paired-index eligibility; not cross-product common grids; meteorological counts differ with mask,source-file:part1_manifest.json,,,,,,,,
+A_Table03_CATALOGUE_SUMMARY,2,ERA5,61507,5394773,3316100,1950–2014,Product-specific paired-index eligibility; not cross-product common grids; meteorological counts differ with mask,source-file:part1_manifest.json,,,,,,,,
+A_Table03_CATALOGUE_SUMMARY,3,GLDAS,63590,5571852,3580861,1950–2014,Product-specific paired-index eligibility; not cross-product common grids; meteorological counts differ with mask,source-file:part1_manifest.json,,,,,,,,
+A_Table04_ANTECEDENT_STRUCTURE,1,GRUN,,,,1950–2014,,source-file:PART3A_FREEZE_MANIFEST.json,131220,312048,3569499,4012767,88.95355748290395,0.9672993722286891,all hydrological events,24
+A_Table04_ANTECEDENT_STRUCTURE,2,ERA5,,,,1950–2014,,source-file:PART3A_FREEZE_MANIFEST.json,102802,267410,2945888,3316100,88.83592171526793,0.968999125478725,all hydrological events,24
+A_Table04_ANTECEDENT_STRUCTURE,3,GLDAS,,,,1950–2014,,source-file:PART3A_FREEZE_MANIFEST.json,89917,241888,3249056,3580861,90.733932425749,0.9748895586843499,all hydrological events,24
