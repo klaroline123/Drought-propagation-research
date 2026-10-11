@@ -1,0 +1,10 @@
+﻿product,kind,stage,n_events,eligible_cells,source_path,period
+GRUN,Hydrological,original,6310288,65544,source-file:part1_manifest.json,1950–2014
+GRUN,Hydrological,pooled,4797685,65544,source-file:part1_manifest.json,1950–2014
+GRUN,Hydrological,final,4012767,65544,source-file:part1_manifest.json,1950–2014
+ERA5,Hydrological,original,5258075,61507,source-file:part1_manifest.json,1950–2014
+ERA5,Hydrological,pooled,4013795,61507,source-file:part1_manifest.json,1950–2014
+ERA5,Hydrological,final,3316100,61507,source-file:part1_manifest.json,1950–2014
+GLDAS,Hydrological,original,5480735,63590,source-file:part1_manifest.json,1950–2014
+GLDAS,Hydrological,pooled,4266502,63590,source-file:part1_manifest.json,1950–2014
+GLDAS,Hydrological,final,3580861,63590,source-file:part1_manifest.json,1950–2014
